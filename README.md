@@ -51,7 +51,6 @@ Costs and model availability vary; there is no fixed-cost promise.
 The histogram default tests execution, not recognition quality. The notebook
 checks its manifest, images, HTML, MCP query, and ZIP before export. Local
 Jupyter prints the archive path; Colab downloads it.
-See [notebook validation](validation/README.md) for the recorded run and how to repeat it.
 
 ## Local pipeline
 
