@@ -1,0 +1,72 @@
+{
+  "model": "openai/gpt-5-image-mini",
+  "total_cost_usd": 0.3016,
+  "images": [
+    {
+      "group": 0,
+      "label": "grey marl short-sleeve polo",
+      "view": "back",
+      "rows": [
+        0
+      ],
+      "file": "00_grey_marl_short_sleeve_polo_back.png",
+      "cost_usd": 0.0506,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 0,
+      "label": "grey marl short-sleeve polo",
+      "view": "front",
+      "rows": [
+        0
+      ],
+      "file": "00_grey_marl_short_sleeve_polo_front.png",
+      "cost_usd": 0.0475,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 1,
+      "label": "purple Paul G. Allen School tee",
+      "view": "back",
+      "rows": [
+        1
+      ],
+      "file": "01_purple_Paul_G__Allen_School_tee_back.png",
+      "cost_usd": 0.0519,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 1,
+      "label": "purple Paul G. Allen School tee",
+      "view": "front",
+      "rows": [
+        1
+      ],
+      "file": "01_purple_Paul_G__Allen_School_tee_front.png",
+      "cost_usd": 0.0489,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 2,
+      "label": "navy number 95 sports jersey",
+      "view": "back",
+      "rows": [
+        2
+      ],
+      "file": "02_navy_number_95_sports_jersey_back.png",
+      "cost_usd": 0.0507,
+      "model": "openai/gpt-5-image-mini"
+    },
+    {
+      "group": 2,
+      "label": "navy number 95 sports jersey",
+      "view": "front",
+      "rows": [
+        2
+      ],
+      "file": "02_navy_number_95_sports_jersey_front.png",
+      "cost_usd": 0.052,
+      "model": "openai/gpt-5-image-mini"
+    }
+  ]
+}

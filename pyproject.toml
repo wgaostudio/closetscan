@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "closetscan"
+version = "0.1.0"
+description = "Turn closet walkthrough videos into a wardrobe catalogue and local MCP tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Will Gao"}]
+dependencies = []
+
+[project.optional-dependencies]
+# vision and narration extend the pipeline rather than standing alone: every
+# module they add to reaches cv2/numpy/requests on import, so installing either
+# by itself would fail at the first import.
+pipeline = ["opencv-python>=4.9", "numpy>=1.26", "scikit-learn>=1.4", "scipy>=1.11", "requests>=2.31"]
+vision = ["closetscan[pipeline]", "torch", "torchvision", "transformers>=4.40,<5"]
+narration = ["closetscan[pipeline]", "faster-whisper>=1.0"]
+
+[project.scripts]
+closetscan-mcp = "closetscan.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["closetscan*"]

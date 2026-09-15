@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "wardrobe": {
+      "command": "/absolute/path/to/venv/bin/python",
+      "args": [
+        "-m",
+        "closetscan.mcp_server",
+        "/absolute/path/to/your/catalogue"
+      ]
+    }
+  }
+}

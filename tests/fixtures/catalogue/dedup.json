@@ -1,0 +1,79 @@
+{
+  "model": "openai/gpt-6-astra",
+  "source_manifest": "manifest.json",
+  "n_rows": 3,
+  "coverage_problems": [],
+  "groups": [
+    {
+      "rows": [
+        0
+      ],
+      "label": "grey marl short-sleeve polo",
+      "confidence": "high",
+      "reason": "The grey marl polo is distinct from the blue polo appearing in the transition image row_0_alt2, listed separately.",
+      "sides": [
+        {
+          "image": "row_0",
+          "side": "back"
+        },
+        {
+          "image": "row_0_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_0_alt1",
+          "side": "front"
+        }
+      ]
+    },
+    {
+      "rows": [
+        1
+      ],
+      "label": "purple Paul G. Allen School tee",
+      "confidence": "high",
+      "reason": "Purple school-text tee with a white sleeve emblem; the striped tee in row_1_alt2 is a separate garment.",
+      "sides": [
+        {
+          "image": "row_1",
+          "side": "front"
+        },
+        {
+          "image": "row_1_alt0",
+          "side": "unclear"
+        },
+        {
+          "image": "row_1_alt1",
+          "side": "back"
+        }
+      ]
+    },
+    {
+      "rows": [
+        2
+      ],
+      "label": "navy number 95 sports jersey",
+      "confidence": "high",
+      "reason": "White V-neck trim, tree chest emblem, sleeve patch and large rear number 95.",
+      "sides": [
+        {
+          "image": "row_2",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt0",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt1",
+          "side": "front"
+        },
+        {
+          "image": "row_2_alt2",
+          "side": "back"
+        }
+      ]
+    }
+  ],
+  "junk_rows": []
+}

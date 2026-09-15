@@ -1,0 +1,55 @@
+{
+  "model": "openai/gpt-6-astra",
+  "garments": {
+    "0": {
+      "name": "Grey marl short-sleeve polo",
+      "description": "A light grey marl polo with short sleeves, a ribbed collar and a three-button placket.",
+      "category": "top",
+      "subcategory": "polo shirt",
+      "colours": [
+        "grey"
+      ],
+      "pattern": "marl",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "smart-casual"
+    },
+    "1": {
+      "name": "Purple Allen School tee",
+      "description": "A purple crewneck tee with white Paul G. Allen School lettering across the chest.",
+      "category": "top",
+      "subcategory": "t-shirt",
+      "colours": [
+        "purple",
+        "white"
+      ],
+      "pattern": "graphic-print",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "casual"
+    },
+    "2": {
+      "name": "Navy white-trim sports jersey",
+      "description": "A navy short-sleeve sports jersey with a white V-neck, white side panels and a small tree emblem.",
+      "category": "top",
+      "subcategory": "sports jersey",
+      "colours": [
+        "navy",
+        "white"
+      ],
+      "pattern": "colour-block",
+      "material": "unknown",
+      "season": [
+        "spring",
+        "summer"
+      ],
+      "formality": "athletic"
+    }
+  }
+}

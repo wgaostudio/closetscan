@@ -1,0 +1,1798 @@
+{
+  "asr_model": "medium.en",
+  "model": "openai/gpt-6-astra",
+  "clip": "phone-walkthrough.mp4",
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.56,
+      "word": " okay"
+    },
+    {
+      "start": 0.56,
+      "end": 0.96,
+      "word": " here"
+    },
+    {
+      "start": 0.96,
+      "end": 1.1,
+      "word": " is"
+    },
+    {
+      "start": 1.1,
+      "end": 1.36,
+      "word": " my"
+    },
+    {
+      "start": 1.36,
+      "end": 1.92,
+      "word": " closet"
+    },
+    {
+      "start": 1.92,
+      "end": 4.1,
+      "word": " let's"
+    },
+    {
+      "start": 4.1,
+      "end": 4.26,
+      "word": " go"
+    },
+    {
+      "start": 4.26,
+      "end": 4.46,
+      "word": " through"
+    },
+    {
+      "start": 4.46,
+      "end": 4.6,
+      "word": " the"
+    },
+    {
+      "start": 4.6,
+      "end": 4.72,
+      "word": " one"
+    },
+    {
+      "start": 4.72,
+      "end": 4.88,
+      "word": " by"
+    },
+    {
+      "start": 4.88,
+      "end": 6.02,
+      "word": " one"
+    },
+    {
+      "start": 6.99,
+      "end": 7.38,
+      "word": " this"
+    },
+    {
+      "start": 7.38,
+      "end": 7.9,
+      "word": " one"
+    },
+    {
+      "start": 7.9,
+      "end": 8.72,
+      "word": " merino"
+    },
+    {
+      "start": 8.72,
+      "end": 9.14,
+      "word": " wool"
+    },
+    {
+      "start": 9.14,
+      "end": 10.14,
+      "word": " kronec"
+    },
+    {
+      "start": 10.14,
+      "end": 10.94,
+      "word": " i"
+    },
+    {
+      "start": 10.94,
+      "end": 11.16,
+      "word": " really"
+    },
+    {
+      "start": 11.16,
+      "end": 11.34,
+      "word": " love"
+    },
+    {
+      "start": 11.34,
+      "end": 11.52,
+      "word": " the"
+    },
+    {
+      "start": 11.52,
+      "end": 12.2,
+      "word": " texture"
+    },
+    {
+      "start": 14.53,
+      "end": 14.93,
+      "word": " let"
+    },
+    {
+      "start": 14.93,
+      "end": 14.97,
+      "word": " me"
+    },
+    {
+      "start": 14.97,
+      "end": 15.19,
+      "word": " see"
+    },
+    {
+      "start": 15.19,
+      "end": 15.41,
+      "word": " what"
+    },
+    {
+      "start": 15.41,
+      "end": 15.75,
+      "word": " else"
+    },
+    {
+      "start": 15.75,
+      "end": 16.43,
+      "word": " oh"
+    },
+    {
+      "start": 16.43,
+      "end": 17.75,
+      "word": " this"
+    },
+    {
+      "start": 19.99,
+      "end": 20.37,
+      "word": " one's"
+    },
+    {
+      "start": 20.37,
+      "end": 21.03,
+      "word": " just"
+    },
+    {
+      "start": 21.72,
+      "end": 22.11,
+      "word": " a"
+    },
+    {
+      "start": 22.11,
+      "end": 22.25,
+      "word": " little"
+    },
+    {
+      "start": 22.25,
+      "end": 22.41,
+      "word": " bit"
+    },
+    {
+      "start": 22.41,
+      "end": 22.77,
+      "word": " warm"
+    },
+    {
+      "start": 22.77,
+      "end": 23.75,
+      "word": " cotton"
+    },
+    {
+      "start": 30.72,
+      "end": 31.12,
+      "word": " This"
+    },
+    {
+      "start": 31.12,
+      "end": 31.52,
+      "word": " one"
+    },
+    {
+      "start": 31.52,
+      "end": 32.0,
+      "word": " is,"
+    },
+    {
+      "start": 32.28,
+      "end": 33.04,
+      "word": " there's"
+    },
+    {
+      "start": 33.04,
+      "end": 33.14,
+      "word": " a"
+    },
+    {
+      "start": 33.14,
+      "end": 34.04,
+      "word": " little"
+    },
+    {
+      "start": 34.04,
+      "end": 34.18,
+      "word": " bit"
+    },
+    {
+      "start": 34.18,
+      "end": 34.3,
+      "word": " of"
+    },
+    {
+      "start": 34.3,
+      "end": 34.46,
+      "word": " silk"
+    },
+    {
+      "start": 34.46,
+      "end": 34.62,
+      "word": " in"
+    },
+    {
+      "start": 34.62,
+      "end": 35.02,
+      "word": " it."
+    },
+    {
+      "start": 36.86,
+      "end": 37.1,
+      "word": " A"
+    },
+    {
+      "start": 37.1,
+      "end": 37.18,
+      "word": " little"
+    },
+    {
+      "start": 37.18,
+      "end": 37.32,
+      "word": " bit"
+    },
+    {
+      "start": 37.32,
+      "end": 37.46,
+      "word": " harder"
+    },
+    {
+      "start": 37.46,
+      "end": 38.02,
+      "word": " style."
+    },
+    {
+      "start": 38.42,
+      "end": 38.48,
+      "word": " I"
+    },
+    {
+      "start": 38.48,
+      "end": 38.56,
+      "word": " don't"
+    },
+    {
+      "start": 38.56,
+      "end": 38.7,
+      "word": " really"
+    },
+    {
+      "start": 38.7,
+      "end": 38.88,
+      "word": " like"
+    },
+    {
+      "start": 38.88,
+      "end": 39.08,
+      "word": " the"
+    },
+    {
+      "start": 39.08,
+      "end": 39.38,
+      "word": " color,"
+    },
+    {
+      "start": 39.38,
+      "end": 39.62,
+      "word": " to"
+    },
+    {
+      "start": 39.62,
+      "end": 39.78,
+      "word": " be"
+    },
+    {
+      "start": 39.78,
+      "end": 40.0,
+      "word": " fair."
+    },
+    {
+      "start": 42.13,
+      "end": 42.25,
+      "word": " Oh"
+    },
+    {
+      "start": 42.25,
+      "end": 42.45,
+      "word": " dear,"
+    },
+    {
+      "start": 42.87,
+      "end": 42.99,
+      "word": " oh"
+    },
+    {
+      "start": 42.99,
+      "end": 43.13,
+      "word": " my"
+    },
+    {
+      "start": 43.13,
+      "end": 43.35,
+      "word": " gosh,"
+    },
+    {
+      "start": 43.69,
+      "end": 43.77,
+      "word": " I"
+    },
+    {
+      "start": 43.77,
+      "end": 43.93,
+      "word": " pick"
+    },
+    {
+      "start": 43.93,
+      "end": 44.03,
+      "word": " it"
+    },
+    {
+      "start": 44.03,
+      "end": 44.35,
+      "word": " up."
+    },
+    {
+      "start": 47.88,
+      "end": 47.96,
+      "word": " This"
+    },
+    {
+      "start": 47.96,
+      "end": 48.06,
+      "word": " one"
+    },
+    {
+      "start": 48.06,
+      "end": 48.2,
+      "word": " is"
+    },
+    {
+      "start": 48.2,
+      "end": 48.28,
+      "word": " just"
+    },
+    {
+      "start": 48.28,
+      "end": 48.9,
+      "word": " very"
+    },
+    {
+      "start": 48.9,
+      "end": 50.44,
+      "word": " sporty."
+    },
+    {
+      "start": 53.53,
+      "end": 53.63,
+      "word": " This"
+    },
+    {
+      "start": 53.63,
+      "end": 53.77,
+      "word": " one,"
+    },
+    {
+      "start": 53.91,
+      "end": 53.95,
+      "word": " this"
+    },
+    {
+      "start": 53.95,
+      "end": 54.19,
+      "word": " one,"
+    },
+    {
+      "start": 54.39,
+      "end": 54.57,
+      "word": " they're"
+    },
+    {
+      "start": 54.57,
+      "end": 54.71,
+      "word": " not"
+    },
+    {
+      "start": 54.71,
+      "end": 55.01,
+      "word": " really"
+    },
+    {
+      "start": 55.01,
+      "end": 55.63,
+      "word": " out"
+    },
+    {
+      "start": 55.63,
+      "end": 55.81,
+      "word": " here."
+    },
+    {
+      "start": 58.75,
+      "end": 59.15,
+      "word": " I"
+    },
+    {
+      "start": 59.15,
+      "end": 59.29,
+      "word": " think"
+    },
+    {
+      "start": 59.29,
+      "end": 59.49,
+      "word": " this"
+    },
+    {
+      "start": 59.49,
+      "end": 59.69,
+      "word": " is"
+    },
+    {
+      "start": 59.69,
+      "end": 59.93,
+      "word": " Ring"
+    },
+    {
+      "start": 59.93,
+      "end": 60.39,
+      "word": " Champs."
+    },
+    {
+      "start": 64.74,
+      "end": 64.86,
+      "word": " It"
+    },
+    {
+      "start": 64.86,
+      "end": 65.1,
+      "word": " really"
+    },
+    {
+      "start": 65.1,
+      "end": 65.76,
+      "word": " fits,"
+    },
+    {
+      "start": 66.56,
+      "end": 66.64,
+      "word": " but"
+    },
+    {
+      "start": 66.64,
+      "end": 67.44,
+      "word": " overpriced,"
+    },
+    {
+      "start": 67.44,
+      "end": 67.66,
+      "word": " to"
+    },
+    {
+      "start": 67.66,
+      "end": 67.78,
+      "word": " be"
+    },
+    {
+      "start": 67.78,
+      "end": 68.02,
+      "word": " fair."
+    },
+    {
+      "start": 69.2,
+      "end": 70.08,
+      "word": " unique"
+    },
+    {
+      "start": 70.08,
+      "end": 70.52,
+      "word": " low"
+    },
+    {
+      "start": 72.53,
+      "end": 73.99,
+      "word": " oversized"
+    },
+    {
+      "start": 73.99,
+      "end": 74.33,
+      "word": " really"
+    },
+    {
+      "start": 74.33,
+      "end": 74.97,
+      "word": " oversized"
+    },
+    {
+      "start": 76.28,
+      "end": 77.24,
+      "word": " this"
+    },
+    {
+      "start": 77.24,
+      "end": 77.38,
+      "word": " one"
+    },
+    {
+      "start": 77.38,
+      "end": 77.52,
+      "word": " is"
+    },
+    {
+      "start": 77.52,
+      "end": 77.64,
+      "word": " sort"
+    },
+    {
+      "start": 77.64,
+      "end": 77.88,
+      "word": " of"
+    },
+    {
+      "start": 77.88,
+      "end": 78.38,
+      "word": " cute"
+    },
+    {
+      "start": 78.38,
+      "end": 79.46,
+      "word": " this"
+    },
+    {
+      "start": 86.18,
+      "end": 86.42,
+      "word": " one's"
+    },
+    {
+      "start": 86.42,
+      "end": 86.62,
+      "word": " from"
+    },
+    {
+      "start": 86.62,
+      "end": 87.06,
+      "word": " Nike"
+    },
+    {
+      "start": 87.06,
+      "end": 88.2,
+      "word": " it's"
+    },
+    {
+      "start": 88.2,
+      "end": 88.36,
+      "word": " very"
+    },
+    {
+      "start": 88.36,
+      "end": 89.16,
+      "word": " sportsy"
+    },
+    {
+      "start": 93.8,
+      "end": 94.72,
+      "word": " this"
+    },
+    {
+      "start": 94.72,
+      "end": 94.92,
+      "word": " one"
+    },
+    {
+      "start": 94.92,
+      "end": 95.74,
+      "word": " is"
+    },
+    {
+      "start": 98.11,
+      "end": 98.59,
+      "word": " how"
+    },
+    {
+      "start": 98.59,
+      "end": 99.47,
+      "word": " to"
+    },
+    {
+      "start": 99.47,
+      "end": 100.47,
+      "word": " style"
+    },
+    {
+      "start": 100.47,
+      "end": 100.87,
+      "word": " it"
+    },
+    {
+      "start": 100.87,
+      "end": 103.13,
+      "word": " feels"
+    },
+    {
+      "start": 103.13,
+      "end": 104.25,
+      "word": " this"
+    },
+    {
+      "start": 106.04,
+      "end": 106.4,
+      "word": " one's"
+    },
+    {
+      "start": 106.4,
+      "end": 106.78,
+      "word": " Queens"
+    },
+    {
+      "start": 106.78,
+      "end": 107.66,
+      "word": " it's"
+    },
+    {
+      "start": 110.51,
+      "end": 110.77,
+      "word": " very"
+    },
+    {
+      "start": 110.77,
+      "end": 111.17,
+      "word": " basic"
+    },
+    {
+      "start": 111.17,
+      "end": 111.97,
+      "word": " ones"
+    },
+    {
+      "start": 111.97,
+      "end": 113.75,
+      "word": " my"
+    },
+    {
+      "start": 113.75,
+      "end": 113.97,
+      "word": " udup"
+    },
+    {
+      "start": 113.97,
+      "end": 114.47,
+      "word": " shirt"
+    },
+    {
+      "start": 114.47,
+      "end": 116.27,
+      "word": " I"
+    },
+    {
+      "start": 116.27,
+      "end": 116.35,
+      "word": " don't"
+    },
+    {
+      "start": 116.35,
+      "end": 116.49,
+      "word": " like"
+    },
+    {
+      "start": 116.49,
+      "end": 116.59,
+      "word": " the"
+    },
+    {
+      "start": 116.59,
+      "end": 116.91,
+      "word": " material"
+    },
+    {
+      "start": 116.91,
+      "end": 117.31,
+      "word": " material"
+    },
+    {
+      "start": 117.31,
+      "end": 117.49,
+      "word": " is"
+    },
+    {
+      "start": 117.49,
+      "end": 117.65,
+      "word": " really"
+    },
+    {
+      "start": 117.65,
+      "end": 117.91,
+      "word": " bad"
+    },
+    {
+      "start": 117.91,
+      "end": 120.11,
+      "word": " let"
+    },
+    {
+      "start": 120.11,
+      "end": 120.25,
+      "word": " me"
+    },
+    {
+      "start": 120.25,
+      "end": 120.67,
+      "word": " see"
+    },
+    {
+      "start": 120.67,
+      "end": 122.11,
+      "word": " this"
+    },
+    {
+      "start": 122.11,
+      "end": 122.91,
+      "word": " one"
+    },
+    {
+      "start": 122.91,
+      "end": 124.59,
+      "word": " my"
+    },
+    {
+      "start": 124.59,
+      "end": 126.77,
+      "word": " my"
+    },
+    {
+      "start": 126.77,
+      "end": 127.35,
+      "word": " high"
+    },
+    {
+      "start": 127.35,
+      "end": 127.55,
+      "word": " school"
+    },
+    {
+      "start": 127.55,
+      "end": 127.93,
+      "word": " friends"
+    },
+    {
+      "start": 127.93,
+      "end": 128.25,
+      "word": " called"
+    },
+    {
+      "start": 128.25,
+      "end": 128.41,
+      "word": " me"
+    },
+    {
+      "start": 128.41,
+      "end": 128.57,
+      "word": " a"
+    },
+    {
+      "start": 128.57,
+      "end": 128.85,
+      "word": " wicked"
+    },
+    {
+      "start": 128.85,
+      "end": 129.37,
+      "word": " witch"
+    },
+    {
+      "start": 129.37,
+      "end": 130.69,
+      "word": " well"
+    },
+    {
+      "start": 130.69,
+      "end": 130.87,
+      "word": " we"
+    },
+    {
+      "start": 130.87,
+      "end": 131.07,
+      "word": " were"
+    },
+    {
+      "start": 131.07,
+      "end": 131.29,
+      "word": " this"
+    },
+    {
+      "start": 131.29,
+      "end": 131.71,
+      "word": " one's"
+    },
+    {
+      "start": 131.71,
+      "end": 131.85,
+      "word": " just"
+    },
+    {
+      "start": 131.85,
+      "end": 132.77,
+      "word": " this"
+    },
+    {
+      "start": 134.72,
+      "end": 134.94,
+      "word": " one's"
+    },
+    {
+      "start": 134.94,
+      "end": 135.02,
+      "word": " a"
+    },
+    {
+      "start": 135.02,
+      "end": 135.14,
+      "word": " little"
+    },
+    {
+      "start": 135.14,
+      "end": 135.26,
+      "word": " bit"
+    },
+    {
+      "start": 135.26,
+      "end": 135.6,
+      "word": " short"
+    },
+    {
+      "start": 135.6,
+      "end": 135.84,
+      "word": " to"
+    },
+    {
+      "start": 135.84,
+      "end": 135.84,
+      "word": " be"
+    },
+    {
+      "start": 135.84,
+      "end": 136.16,
+      "word": " fair"
+    },
+    {
+      "start": 136.16,
+      "end": 136.6,
+      "word": " my"
+    },
+    {
+      "start": 141.53,
+      "end": 142.01,
+      "word": " company"
+    },
+    {
+      "start": 142.01,
+      "end": 142.89,
+      "word": " shirt"
+    },
+    {
+      "start": 147.47,
+      "end": 149.09,
+      "word": " quadrant"
+    },
+    {
+      "start": 149.09,
+      "end": 150.25,
+      "word": " I"
+    },
+    {
+      "start": 151.62,
+      "end": 151.8,
+      "word": " got"
+    },
+    {
+      "start": 151.8,
+      "end": 151.92,
+      "word": " it"
+    },
+    {
+      "start": 151.92,
+      "end": 152.06,
+      "word": " from"
+    },
+    {
+      "start": 152.06,
+      "end": 152.22,
+      "word": " an"
+    },
+    {
+      "start": 152.22,
+      "end": 152.66,
+      "word": " event"
+    },
+    {
+      "start": 152.66,
+      "end": 153.62,
+      "word": " my"
+    },
+    {
+      "start": 157.82,
+      "end": 158.34,
+      "word": " company"
+    },
+    {
+      "start": 158.34,
+      "end": 158.88,
+      "word": " pickleball"
+    },
+    {
+      "start": 158.88,
+      "end": 159.52,
+      "word": " Jersey"
+    },
+    {
+      "start": 166.72,
+      "end": 167.5,
+      "word": " Port"
+    },
+    {
+      "start": 167.5,
+      "end": 167.78,
+      "word": " Jelen"
+    },
+    {
+      "start": 167.78,
+      "end": 168.24,
+      "word": " School."
+    },
+    {
+      "start": 169.98,
+      "end": 170.1,
+      "word": " The"
+    },
+    {
+      "start": 170.1,
+      "end": 170.34,
+      "word": " materials"
+    },
+    {
+      "start": 170.34,
+      "end": 170.58,
+      "word": " are"
+    },
+    {
+      "start": 170.58,
+      "end": 170.78,
+      "word": " really"
+    },
+    {
+      "start": 170.78,
+      "end": 170.96,
+      "word": " bad,"
+    },
+    {
+      "start": 171.04,
+      "end": 171.12,
+      "word": " but"
+    },
+    {
+      "start": 171.12,
+      "end": 171.32,
+      "word": " it's"
+    },
+    {
+      "start": 171.32,
+      "end": 171.5,
+      "word": " very"
+    },
+    {
+      "start": 171.5,
+      "end": 171.98,
+      "word": " memorable."
+    },
+    {
+      "start": 175.85,
+      "end": 176.31,
+      "word": " Another"
+    },
+    {
+      "start": 176.31,
+      "end": 176.53,
+      "word": " light"
+    },
+    {
+      "start": 176.53,
+      "end": 176.83,
+      "word": " key."
+    },
+    {
+      "start": 183.88,
+      "end": 183.92,
+      "word": " A"
+    },
+    {
+      "start": 183.92,
+      "end": 184.06,
+      "word": " very"
+    },
+    {
+      "start": 184.06,
+      "end": 184.66,
+      "word": " Christmassy."
+    },
+    {
+      "start": 192.36,
+      "end": 192.5,
+      "word": " This"
+    },
+    {
+      "start": 192.5,
+      "end": 192.62,
+      "word": " one"
+    },
+    {
+      "start": 192.62,
+      "end": 192.74,
+      "word": " is"
+    },
+    {
+      "start": 192.74,
+      "end": 192.84,
+      "word": " a"
+    },
+    {
+      "start": 192.84,
+      "end": 192.92,
+      "word": " little"
+    },
+    {
+      "start": 192.92,
+      "end": 193.02,
+      "word": " bit"
+    },
+    {
+      "start": 193.02,
+      "end": 193.22,
+      "word": " too"
+    },
+    {
+      "start": 193.22,
+      "end": 193.6,
+      "word": " relaxed"
+    },
+    {
+      "start": 193.6,
+      "end": 193.9,
+      "word": " for"
+    },
+    {
+      "start": 193.9,
+      "end": 194.3,
+      "word": " me."
+    },
+    {
+      "start": 194.8,
+      "end": 195.02,
+      "word": " Forward."
+    },
+    {
+      "start": 199.74,
+      "end": 199.96,
+      "word": " This"
+    },
+    {
+      "start": 199.96,
+      "end": 200.1,
+      "word": " one"
+    },
+    {
+      "start": 200.1,
+      "end": 200.28,
+      "word": " is"
+    },
+    {
+      "start": 200.28,
+      "end": 200.72,
+      "word": " really,"
+    },
+    {
+      "start": 200.72,
+      "end": 200.98,
+      "word": " really"
+    },
+    {
+      "start": 200.98,
+      "end": 201.34,
+      "word": " heavy."
+    },
+    {
+      "start": 207.05,
+      "end": 207.23,
+      "word": " This"
+    },
+    {
+      "start": 207.23,
+      "end": 207.37,
+      "word": " one"
+    },
+    {
+      "start": 207.37,
+      "end": 207.47,
+      "word": " is"
+    },
+    {
+      "start": 207.47,
+      "end": 207.67,
+      "word": " even"
+    },
+    {
+      "start": 207.67,
+      "end": 208.07,
+      "word": " heavier."
+    },
+    {
+      "start": 218.05,
+      "end": 218.31,
+      "word": " This"
+    },
+    {
+      "start": 218.31,
+      "end": 218.49,
+      "word": " one"
+    },
+    {
+      "start": 218.49,
+      "end": 218.71,
+      "word": " is"
+    },
+    {
+      "start": 218.71,
+      "end": 219.29,
+      "word": " mostly"
+    },
+    {
+      "start": 219.29,
+      "end": 219.79,
+      "word": " synthetic"
+    },
+    {
+      "start": 219.79,
+      "end": 220.31,
+      "word": " material."
+    },
+    {
+      "start": 223.26,
+      "end": 223.32,
+      "word": " I"
+    },
+    {
+      "start": 223.32,
+      "end": 223.42,
+      "word": " need"
+    },
+    {
+      "start": 223.42,
+      "end": 223.58,
+      "word": " to"
+    },
+    {
+      "start": 223.58,
+      "end": 223.78,
+      "word": " iron"
+    },
+    {
+      "start": 223.78,
+      "end": 224.22,
+      "word": " it."
+    },
+    {
+      "start": 227.52,
+      "end": 227.96,
+      "word": " My"
+    },
+    {
+      "start": 227.96,
+      "end": 228.4,
+      "word": " hiking"
+    },
+    {
+      "start": 228.4,
+      "end": 228.74,
+      "word": " go"
+    },
+    {
+      "start": 228.74,
+      "end": 229.84,
+      "word": " to"
+    },
+    {
+      "start": 236.85,
+      "end": 238.47,
+      "word": " Levi's."
+    },
+    {
+      "start": 239.27,
+      "end": 239.37,
+      "word": " Just"
+    },
+    {
+      "start": 239.37,
+      "end": 239.77,
+      "word": " plain"
+    },
+    {
+      "start": 239.77,
+      "end": 240.03,
+      "word": " work"
+    },
+    {
+      "start": 240.03,
+      "end": 240.29,
+      "word": " wear."
+    },
+    {
+      "start": 247.68,
+      "end": 247.94,
+      "word": " Another"
+    },
+    {
+      "start": 247.94,
+      "end": 248.32,
+      "word": " one."
+    },
+    {
+      "start": 256.25,
+      "end": 256.37,
+      "word": " I"
+    },
+    {
+      "start": 256.37,
+      "end": 256.57,
+      "word": " think"
+    },
+    {
+      "start": 256.57,
+      "end": 256.79,
+      "word": " this"
+    },
+    {
+      "start": 256.79,
+      "end": 256.89,
+      "word": " is"
+    },
+    {
+      "start": 256.89,
+      "end": 257.07,
+      "word": " the"
+    },
+    {
+      "start": 257.07,
+      "end": 257.19,
+      "word": " thing"
+    },
+    {
+      "start": 257.19,
+      "end": 257.35,
+      "word": " that"
+    },
+    {
+      "start": 257.35,
+      "end": 257.61,
+      "word": " I"
+    },
+    {
+      "start": 257.61,
+      "end": 257.83,
+      "word": " will"
+    },
+    {
+      "start": 257.83,
+      "end": 258.29,
+      "word": " never"
+    },
+    {
+      "start": 258.29,
+      "end": 258.71,
+      "word": " wear."
+    },
+    {
+      "start": 260.66,
+      "end": 260.94,
+      "word": " I"
+    },
+    {
+      "start": 260.94,
+      "end": 261.06,
+      "word": " have"
+    },
+    {
+      "start": 261.06,
+      "end": 261.18,
+      "word": " no"
+    },
+    {
+      "start": 261.18,
+      "end": 261.42,
+      "word": " idea"
+    },
+    {
+      "start": 261.42,
+      "end": 261.6,
+      "word": " why"
+    },
+    {
+      "start": 261.6,
+      "end": 261.8,
+      "word": " I"
+    },
+    {
+      "start": 261.8,
+      "end": 261.92,
+      "word": " bought"
+    },
+    {
+      "start": 261.92,
+      "end": 262.28,
+      "word": " it."
+    },
+    {
+      "start": 267.48,
+      "end": 267.66,
+      "word": " So"
+    },
+    {
+      "start": 267.66,
+      "end": 267.82,
+      "word": " is"
+    },
+    {
+      "start": 267.82,
+      "end": 268.0,
+      "word": " this"
+    },
+    {
+      "start": 268.0,
+      "end": 268.28,
+      "word": " one."
+    },
+    {
+      "start": 269.74,
+      "end": 269.8,
+      "word": " I"
+    },
+    {
+      "start": 269.8,
+      "end": 269.92,
+      "word": " know"
+    },
+    {
+      "start": 269.92,
+      "end": 270.1,
+      "word": " just"
+    },
+    {
+      "start": 270.1,
+      "end": 270.28,
+      "word": " feel"
+    },
+    {
+      "start": 270.28,
+      "end": 270.44,
+      "word": " like"
+    },
+    {
+      "start": 270.44,
+      "end": 271.08,
+      "word": " a"
+    },
+    {
+      "start": 271.08,
+      "end": 271.3,
+      "word": " snob"
+    },
+    {
+      "start": 271.3,
+      "end": 271.52,
+      "word": " if"
+    },
+    {
+      "start": 271.52,
+      "end": 271.66,
+      "word": " I"
+    },
+    {
+      "start": 271.66,
+      "end": 271.98,
+      "word": " actually"
+    },
+    {
+      "start": 271.98,
+      "end": 272.22,
+      "word": " wear"
+    },
+    {
+      "start": 272.22,
+      "end": 272.52,
+      "word": " it."
+    },
+    {
+      "start": 275.72,
+      "end": 275.94,
+      "word": " I"
+    },
+    {
+      "start": 275.94,
+      "end": 276.06,
+      "word": " like"
+    },
+    {
+      "start": 276.06,
+      "end": 276.3,
+      "word": " this"
+    },
+    {
+      "start": 276.3,
+      "end": 276.52,
+      "word": " one"
+    },
+    {
+      "start": 276.52,
+      "end": 276.68,
+      "word": " but"
+    },
+    {
+      "start": 276.68,
+      "end": 276.82,
+      "word": " I"
+    },
+    {
+      "start": 276.82,
+      "end": 276.92,
+      "word": " need"
+    },
+    {
+      "start": 276.92,
+      "end": 277.14,
+      "word": " to"
+    },
+    {
+      "start": 277.14,
+      "end": 277.64,
+      "word": " I"
+    },
+    {
+      "start": 277.64,
+      "end": 277.64,
+      "word": " like"
+    },
+    {
+      "start": 284.42,
+      "end": 285.54,
+      "word": " this"
+    },
+    {
+      "start": 285.54,
+      "end": 285.68,
+      "word": " one"
+    },
+    {
+      "start": 285.68,
+      "end": 286.34,
+      "word": " too"
+    },
+    {
+      "start": 289.96,
+      "end": 290.7,
+      "word": " okay"
+    },
+    {
+      "start": 290.7,
+      "end": 291.68,
+      "word": " oh"
+    },
+    {
+      "start": 294.27,
+      "end": 296.37,
+      "word": " this"
+    },
+    {
+      "start": 296.37,
+      "end": 296.65,
+      "word": " is"
+    },
+    {
+      "start": 296.65,
+      "end": 296.99,
+      "word": " uh"
+    },
+    {
+      "start": 296.99,
+      "end": 298.29,
+      "word": " this"
+    },
+    {
+      "start": 298.29,
+      "end": 298.43,
+      "word": " is"
+    },
+    {
+      "start": 298.43,
+      "end": 298.59,
+      "word": " for"
+    },
+    {
+      "start": 298.59,
+      "end": 298.91,
+      "word": " winter"
+    },
+    {
+      "start": 298.91,
+      "end": 299.71,
+      "word": " really"
+    },
+    {
+      "start": 299.71,
+      "end": 299.91,
+      "word": " really"
+    },
+    {
+      "start": 299.91,
+      "end": 300.41,
+      "word": " heavy"
+    },
+    {
+      "start": 300.41,
+      "end": 302.41,
+      "word": " oh"
+    },
+    {
+      "start": 302.41,
+      "end": 302.61,
+      "word": " i"
+    },
+    {
+      "start": 302.61,
+      "end": 302.97,
+      "word": " dropped"
+    },
+    {
+      "start": 302.97,
+      "end": 303.21,
+      "word": " a"
+    },
+    {
+      "start": 303.21,
+      "end": 303.55,
+      "word": " few"
+    },
+    {
+      "start": 304.27,
+      "end": 304.61,
+      "word": " this"
+    },
+    {
+      "start": 312.7,
+      "end": 313.16,
+      "word": " one"
+    },
+    {
+      "start": 313.16,
+      "end": 314.34,
+      "word": " another"
+    },
+    {
+      "start": 314.34,
+      "end": 314.92,
+      "word": " public"
+    },
+    {
+      "start": 314.92,
+      "end": 315.82,
+      "word": " and"
+    },
+    {
+      "start": 321.81,
+      "end": 322.01,
+      "word": " two"
+    },
+    {
+      "start": 322.01,
+      "end": 322.53,
+      "word": " queens"
+    },
+    {
+      "start": 322.53,
+      "end": 323.45,
+      "word": " the"
+    },
+    {
+      "start": 330.52,
+      "end": 330.86,
+      "word": " queen's"
+    },
+    {
+      "start": 330.86,
+      "end": 330.96,
+      "word": " is"
+    },
+    {
+      "start": 330.96,
+      "end": 331.14,
+      "word": " wool"
+    },
+    {
+      "start": 331.14,
+      "end": 331.34,
+      "word": " by"
+    },
+    {
+      "start": 331.34,
+      "end": 331.48,
+      "word": " the"
+    },
+    {
+      "start": 331.48,
+      "end": 331.66,
+      "word": " way"
+    },
+    {
+      "start": 334.89,
+      "end": 335.53,
+      "word": " the"
+    },
+    {
+      "start": 335.53,
+      "end": 335.75,
+      "word": " green"
+    },
+    {
+      "start": 335.75,
+      "end": 336.09,
+      "word": " one"
+    },
+    {
+      "start": 336.09,
+      "end": 336.79,
+      "word": " i"
+    },
+    {
+      "start": 340.86,
+      "end": 341.08,
+      "word": " also"
+    },
+    {
+      "start": 341.08,
+      "end": 341.28,
+      "word": " bought"
+    },
+    {
+      "start": 341.28,
+      "end": 341.6,
+      "word": " it"
+    },
+    {
+      "start": 341.6,
+      "end": 342.12,
+      "word": " bought"
+    },
+    {
+      "start": 342.12,
+      "end": 342.26,
+      "word": " this"
+    },
+    {
+      "start": 342.26,
+      "end": 342.44,
+      "word": " in"
+    },
+    {
+      "start": 342.44,
+      "end": 342.68,
+      "word": " another"
+    },
+    {
+      "start": 342.68,
+      "end": 343.02,
+      "word": " color"
+    },
+    {
+      "start": 344.62,
+      "end": 345.3,
+      "word": " okay"
+    },
+    {
+      "start": 345.3,
+      "end": 345.62,
+      "word": " that's"
+    },
+    {
+      "start": 345.62,
+      "end": 345.8,
+      "word": " my"
+    },
+    {
+      "start": 345.8,
+      "end": 346.12,
+      "word": " closet"
+    }
+  ],
+  "garments": {
+    "0": {
+      "quotes": [
+        {
+          "start": 131.07,
+          "end": 132.77,
+          "text": "this one's just this"
+        },
+        {
+          "start": 134.72,
+          "end": 136.6,
+          "text": "one's a little bit short to be fair my"
+        }
+      ],
+      "corrected_quotes": [
+        "this one's just this",
+        "one's a little bit short to be fair my"
+      ],
+      "material": "",
+      "provenance": "",
+      "sentiment": "A little bit short, to be fair.",
+      "summary": "",
+      "cross_reference": ""
+    },
+    "1": {
+      "quotes": [
+        {
+          "start": 166.72,
+          "end": 168.24,
+          "text": "Port Jelen School."
+        },
+        {
+          "start": 169.98,
+          "end": 171.98,
+          "text": "The materials are really bad, but it's very memorable."
+        }
+      ],
+      "corrected_quotes": [
+        "Paul G. Allen School.",
+        "The materials are really bad, but it's very memorable."
+      ],
+      "material": "",
+      "provenance": "Paul G. Allen School.",
+      "sentiment": "The materials are really bad, but it's very memorable.",
+      "summary": "The Allen School tee is very memorable despite its really bad material.",
+      "cross_reference": ""
+    },
+    "2": {
+      "quotes": [
+        {
+          "start": 157.82,
+          "end": 159.52,
+          "text": "company pickleball Jersey"
+        }
+      ],
+      "corrected_quotes": [
+        "company pickleball jersey"
+      ],
+      "material": "",
+      "provenance": "Their company pickleball jersey.",
+      "sentiment": "",
+      "summary": "",
+      "cross_reference": ""
+    }
+  },
+  "unassigned": []
+}

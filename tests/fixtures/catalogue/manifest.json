@@ -1,0 +1,109 @@
+{
+  "config": {
+    "sample_fps": 4.0,
+    "max_frame_width": 1280,
+    "blur_percentile": 25.0,
+    "blur_rel_floor": 0.35,
+    "segment_sensitivity": 1.2,
+    "segment_similarity": null,
+    "min_segment_frames": 3,
+    "cluster_distance": null,
+    "gap_floor": 0.0001,
+    "merge_sensitivity": 0.0,
+    "merge_min_samples": 8,
+    "fallback_percentile": 20.0,
+    "gap_min_ratio": 4.0,
+    "views_per_garment": 3,
+    "view_min_distance": 0.08,
+    "stitch_max_seconds": 0.4,
+    "view_quality_percentile": 60.0,
+    "view_prefer_spread": false,
+    "view_min_seconds": 1.0,
+    "w_sharpness": 0.5,
+    "w_area": 0.2,
+    "w_exposure": 0.15,
+    "w_centrality": 0.15
+  },
+  "embedder": "dinov2",
+  "n_frames": 3,
+  "garments": [
+    {
+      "id": 0,
+      "views": [
+        {
+          "file": "shots/garment_000_view0.jpg",
+          "timestamp_s": 134.77
+        },
+        {
+          "file": "shots/garment_000_view1.jpg",
+          "timestamp_s": 133.6
+        },
+        {
+          "file": "shots/garment_000_view2.jpg",
+          "timestamp_s": 142.01
+        }
+      ],
+      "best_shot": "shots/garment_000.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 135.94,
+      "quality": 0.5022,
+      "observations": 55,
+      "tracklets": [
+        24
+      ],
+      "revisited": false
+    },
+    {
+      "id": 1,
+      "views": [
+        {
+          "file": "shots/garment_001_view0.jpg",
+          "timestamp_s": 169.1
+        },
+        {
+          "file": "shots/garment_001_view1.jpg",
+          "timestamp_s": 171.67
+        },
+        {
+          "file": "shots/garment_001_view2.jpg",
+          "timestamp_s": 175.41
+        }
+      ],
+      "best_shot": "shots/garment_001.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 167.93,
+      "quality": 0.5467,
+      "observations": 54,
+      "tracklets": [
+        27
+      ],
+      "revisited": false
+    },
+    {
+      "id": 2,
+      "views": [
+        {
+          "file": "shots/garment_002_view0.jpg",
+          "timestamp_s": 157.89
+        },
+        {
+          "file": "shots/garment_002_view1.jpg",
+          "timestamp_s": 160.93
+        },
+        {
+          "file": "shots/garment_002_view2.jpg",
+          "timestamp_s": 162.1
+        }
+      ],
+      "best_shot": "shots/garment_002.jpg",
+      "source_clip": "phone-walkthrough.mp4",
+      "timestamp_s": 159.06,
+      "quality": 0.5604,
+      "observations": 40,
+      "tracklets": [
+        26
+      ],
+      "revisited": false
+    }
+  ]
+}
