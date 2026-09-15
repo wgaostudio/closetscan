@@ -11,13 +11,13 @@ retain the copyright and license notice as required by MIT.
 
 ## See it first
 
-**[Open the live demo](https://YOUR-GITHUB-USERNAME.github.io/closetscan-demo/)** —
+**[Open the live demo](https://wgaostudio.github.io/closetscan-demo/)** —
 one 5-minute-49-second phone recording beside the 34-garment catalogue built
 from it. Nothing to install, no API key, no clone.
 
 The demo is not part of this repository, so cloning stays small. To run it
 offline, download `closetscan-demo.zip` from the
-[latest release](https://github.com/YOUR-GITHUB-USERNAME/closetscan/releases/latest),
+[latest release](https://github.com/wgaostudio/closetscan/releases/latest),
 unzip it, and open `index.html`. Keep the folder together; the page loads its
 images from `catalogue/`.
 
@@ -30,7 +30,7 @@ reconstructions; source frames remain available for comparison.
 
 ## One notebook: Colab or local Jupyter
 
-[Open `closetscan_colab.ipynb` in Colab](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/closetscan/blob/main/closetscan_colab.ipynb).
+[Open `closetscan_colab.ipynb` in Colab](https://colab.research.google.com/github/wgaostudio/closetscan/blob/main/closetscan_colab.ipynb).
 The notebook installs the package and processes the demo video or one you
 upload. The same notebook also runs in local Jupyter: open it from a clone, or
 set `PROJECT_DIR` in its options cell. For a local custom video, set
@@ -66,7 +66,7 @@ python -m closetscan.run path/to/walkthrough.mp4 --out out --embedder dinov2 --h
 
 To use the same recording as the published demo, take `phone-walkthrough.mp4`
 from `closetscan-demo.zip` in the
-[latest release](https://github.com/YOUR-GITHUB-USERNAME/closetscan/releases/latest).
+[latest release](https://github.com/wgaostudio/closetscan/releases/latest).
 
 For extraction without model downloads, install `.[pipeline]` and use
 `--embedder hist`. For a complete catalogue, set `OPENROUTER_API_KEY`,
