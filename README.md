@@ -52,6 +52,27 @@ The histogram default tests execution, not recognition quality. The notebook
 checks its manifest, images, HTML, MCP query, and ZIP before export. Local
 Jupyter prints the archive path; Colab downloads it.
 
+## Recording a walkthrough
+
+**Talk through the closet while you film it.** Speech is not a bonus track; it
+is the pipeline's strongest segmentation signal. The background of a closet is
+constant — same wall, same rail — so frame-to-frame visual change follows your
+hands more than it follows which garment you are holding, while the pauses
+between utterances land almost exactly on the handoffs. A silent recording still
+processes, but neighbouring garments merge into one.
+
+- Say a few words about each item. Anything works: the timing carries the
+  segmentation, and the words themselves become searchable narration.
+- Pause between items, and hold each garment still while you talk about it.
+- Show both sides; front and back are catalogued separately.
+- Keep the microphone live, and keep the audio track when trimming or
+  re-encoding a clip before processing.
+
+`python -m closetscan.run` uses that audio by default and warns when it finds no
+narration boundaries; `--no-audio` segments on visual change alone. Transcribing
+what was said — what a fabric is, where an item came from — is the separate
+optional `closetscan.narration` stage below.
+
 ## Local pipeline
 
 Python 3.10+ and FFmpeg/ffprobe on PATH are required for video processing.
@@ -125,7 +146,8 @@ Image paths require local file access in the client. No pipeline tool is exposed
 
 ## Limits and contributions
 
-Capture can miss garments. Pause between items, hold still, and show both sides.
+Capture can miss garments, and a silent or poorly narrated recording misses
+more of them; see [Recording a walkthrough](#recording-a-walkthrough).
 Generated images and attributes can invent details. Narration can be mistranscribed
 or attached to the wrong item. Missing catalogue entries do not establish ownership,
 and missing wear logs do not mean clothes were never worn.

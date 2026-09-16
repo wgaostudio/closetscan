@@ -119,9 +119,13 @@ def main() -> None:
     extra_cuts: set[int] = set()
     if not args.no_audio:
         from .audio import has_audio, speech_boundaries, boundaries_to_frame_cuts
+        silent = []
         for clip in sorted({f.source for f in frames}):
             src = next((p for p in resolved if os.path.basename(p) == clip), None)
-            if src is None or not has_audio(src):
+            if src is None:
+                continue
+            if not has_audio(src):
+                silent.append(clip)
                 continue
             local = [(i, f.timestamp) for i, f in enumerate(frames) if f.source == clip]
             if not local:
@@ -130,6 +134,16 @@ def main() -> None:
             rel = boundaries_to_frame_cuts(speech_boundaries(src), list(ts))
             extra_cuts |= {idxs[r] for r in rel}
         print(f"narration boundaries: {len(extra_cuts)}")
+        if silent:
+            print("WARNING: no audio track in " + ", ".join(silent))
+        if not extra_cuts:
+            print("WARNING: no narration boundaries found. In a fixed-background "
+                  "closet, speech is the strongest evidence of a handoff from one "
+                  "garment to the next; without it segmentation runs on visual "
+                  "change alone and will under-fire, merging neighbouring items. "
+                  "Narrate the walkthrough as you film it — a few words per "
+                  "garment, with a pause between them — and keep the audio track "
+                  "when trimming. Pass --no-audio to suppress this warning.")
 
     raw = segment(frames, embeddings, cfg, extra_cuts=extra_cuts)
     tracklets = merge_adjacent(raw, embeddings, cfg, frames=frames)
