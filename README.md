@@ -1,8 +1,11 @@
 # ClosetScan
 
-Turn a closet walkthrough video into a searchable wardrobe: source frames,
-AI-generated front/back flat-lays, attributes, and optional narration.
-Query the result with a local MCP server and the included wardrobe skill.
+Turn a closet walkthrough video into a wardrobe your AI assistant can use:
+source frames, AI-generated front/back flat-lays, attributes, and optional
+narration, handed to any MCP client by a local server and the included wardrobe
+skill. Ask what goes with the navy jacket, what you said about it while you
+were filming, or what you have not worn since spring — against your own
+clothes, catalogued from one video, on your own machine.
 
 By Will Gao. A mention is appreciated, but not required. MIT licensed;
 retain the copyright and license notice as required by MIT.
@@ -27,6 +30,52 @@ That catalogue was generated from the included recording using DINOv2 and the
 paid AI stages; reruns can produce different results. It contains 34 garments
 with 68 generated front/back images. Images marked as plates are generated
 reconstructions; source frames remain available for comparison.
+
+## Your closet, in your assistant
+
+One MCP server and one skill, both local. Point the server at a catalogue —
+one you build with the pipeline below, or the published demo's, which needs no
+pipeline run at all — and your assistant can answer from your own clothes:
+
+- *What goes with the grey wool trousers?*
+- *What did I say about the jacket I bought in Kyoto?*
+- *What have I not worn since March?*
+
+Answers are only as good as the catalogue behind them; see
+[Limits](#limits-and-contributions).
+
+The MCP server uses only Python's standard library. It opens no sockets and makes
+no outbound requests. Install with `python -m pip install -e .`, or run from a
+clone without installation, pointing it at any catalogue directory:
+
+```bash
+python -m closetscan.mcp_server out
+```
+
+To query the published demo, unzip `closetscan-demo.zip` and point the server at
+its `catalogue` directory.
+
+This waits for newline-delimited JSON-RPC on stdin; it is not an interactive CLI.
+Use [mcp/config.example.json](mcp/config.example.json) in your MCP client's server
+configuration, replacing both absolute paths. Install the package into the Python
+environment named by `command`. Copy [skills/wardrobe](skills/wardrobe) into your
+agent's skill directory. The skill uses the seven tools exposed by this server:
+
+- `list_attributes`, `list_garments`, `get_garment`
+- `search_garments`, `search_narration`
+- `log_wear`, `get_wear_history`
+
+The server supports MCP protocol `2024-11-05` over stdio and advertises that version
+at initialization; clients must support it. See the [MCP transport specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/transports).
+Catalogue location: positional argument, then `CLOSETSCAN_CATALOGUE`, then `./out`.
+Only `log_wear` writes, appending `wear_log.jsonl`. Back it up with its catalogue:
+garment IDs can change when grouping is rerun. Search is lexical, not semantic.
+`log_wear` requires a nonempty garment ID; invalid IDs never create or append
+to the log. Corrupt or unreadable catalogue JSON raises an error. When
+`dedup.json` is absent, the source-only candidate preview ignores existing
+attributes, narration, and generated images because their grouping IDs
+cannot safely be matched to candidate rows.
+Image paths require local file access in the client. No pipeline tool is exposed.
 
 ## One notebook: Colab or local Jupyter
 
@@ -108,41 +157,6 @@ previous outputs before replacing them. Local key-file fallback is
 `~/.config/openrouter/key`. Do not commit credentials or private catalogues.
 The CLI retains the original experiment's model defaults; pass explicit model IDs
 available to your account. See [OpenRouter multimodal documentation](https://openrouter.ai/docs/guides/overview/multimodal/overview).
-
-## One MCP server + skill
-
-The MCP server uses only Python's standard library. It opens no sockets and makes
-no outbound requests. Install with `python -m pip install -e .`, or run from a
-clone without installation, pointing it at any catalogue directory:
-
-```bash
-python -m closetscan.mcp_server out
-```
-
-To query the published demo instead, unzip `closetscan-demo.zip` and point the
-server at its `catalogue` directory.
-
-This waits for newline-delimited JSON-RPC on stdin; it is not an interactive CLI.
-Use [mcp/config.example.json](mcp/config.example.json) in your MCP client's server
-configuration, replacing both absolute paths. Install the package into the Python
-environment named by `command`. Copy [skills/wardrobe](skills/wardrobe) into your
-agent's skill directory. The skill uses the seven tools exposed by this server:
-
-- `list_attributes`, `list_garments`, `get_garment`
-- `search_garments`, `search_narration`
-- `log_wear`, `get_wear_history`
-
-The server supports MCP protocol `2024-11-05` over stdio and advertises that version
-at initialization; clients must support it. See the [MCP transport specification](https://modelcontextprotocol.io/specification/2025-06-18/basic/transports).
-Catalogue location: positional argument, then `CLOSETSCAN_CATALOGUE`, then `./out`.
-Only `log_wear` writes, appending `wear_log.jsonl`. Back it up with its catalogue:
-garment IDs can change when grouping is rerun. Search is lexical, not semantic.
-`log_wear` requires a nonempty garment ID; invalid IDs never create or append
-to the log. Corrupt or unreadable catalogue JSON raises an error. When
-`dedup.json` is absent, the source-only candidate preview ignores existing
-attributes, narration, and generated images because their grouping IDs
-cannot safely be matched to candidate rows.
-Image paths require local file access in the client. No pipeline tool is exposed.
 
 ## Limits and contributions
 

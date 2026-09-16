@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "closetscan"
 version = "0.1.0"
-description = "Turn closet walkthrough videos into a wardrobe catalogue and local MCP tools"
+description = "Turn a closet walkthrough video into a wardrobe catalogue your AI assistant can query over MCP"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
